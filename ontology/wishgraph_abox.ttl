@@ -1,0 +1,1439 @@
+@prefix wg: <https://example.org/wishgraph#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# ─────────────────────────────────────────────────────────────────────────
+# WishGraph A-Box  –  Cyber-Wishing Case Instances
+# Generated from 14 CSV rows | 2026-05-08
+# ─────────────────────────────────────────────────────────────────────────
+
+wg:Programmer
+    a wg:Person ;
+    rdfs:label "Programmer" .
+
+wg:Bugs_debugging_code_crashes_project_launch_pressure
+    a wg:Pressure ;
+    rdfs:label "Bugs, debugging, code crashes, project launch pressure" .
+
+wg:Cyber_Manjushri_Debugging_Bodhisattva
+    a wg:CyberProduct ;
+    rdfs:label "Cyber Manjushri, Debugging Bodhisattva" .
+
+wg:Manjushri_Bodhisattva_of_Wisdom_Guardian_of_Stability
+    a wg:CulturalTarget ;
+    rdfs:label "Manjushri (Bodhisattva of Wisdom) / Guardian of Stability" .
+
+wg:Worshipping_the_server
+    a wg:DigitalPractice ;
+    rdfs:label "Worshipping the server" .
+
+wg:pasting_digital_talismans_in_code_comments
+    a wg:DigitalPractice ;
+    rdfs:label "pasting digital talismans in code comments" .
+
+wg:sharing_debug_memes
+    a wg:DigitalPractice ;
+    rdfs:label "sharing debug memes" .
+
+wg:GitHub
+    a wg:Platform ;
+    rdfs:label "GitHub" .
+
+wg:Tech_Forums
+    a wg:Platform ;
+    rdfs:label "Tech Forums" .
+
+wg:WeChat_Groups
+    a wg:Platform ;
+    rdfs:label "WeChat Groups" .
+
+wg:Algorithmic_blessing
+    a wg:TransformationMechanism ;
+    rdfs:label "Algorithmic blessing" .
+
+wg:Server_stability_is_mythologized_into_a_spiritual_state
+    a wg:TransformationMechanism ;
+    rdfs:label "Server stability is mythologized into a spiritual state" .
+
+wg:Anxiety_relief
+    a wg:AffectiveFunction ;
+    rdfs:label "Anxiety relief" .
+
+wg:seeking_control_over_unpredictable_technical_errors
+    a wg:AffectiveFunction ;
+    rdfs:label "seeking control over unpredictable technical errors" .
+
+wg:Tech_community_bonding
+    a wg:MemeFunction ;
+    rdfs:label "Tech community bonding" .
+
+wg:self_deprecating_humor_code_works_by_magic
+    a wg:MemeFunction ;
+    rdfs:label "self-deprecating humor (\"code works by magic\")" .
+
+wg:Code_comments_formatted_as_Buddha_ASCII_art
+    a wg:RitualSymbol ;
+    rdfs:label "Code comments formatted as Buddha ASCII art" .
+
+wg:Server_Talisman_符
+    a wg:RitualSymbol ;
+    rdfs:label "Server Talisman (符)" .
+
+wg:src_case_01_programmer
+    a wg:Source ;
+    wg:hasSourceURL <https://www.xiaohongshu.com/explore/676e791b000000000b022d4f?xsec_token=AB7tm5dnrjNbPdz2XnvaMu84hepp0kEHKKq6CVn32a-yI=&xsec_source=pc_search&source=web_explore_feed> ;
+    wg:hasSourceType "Tech Community Meme / UGC" .
+
+wg:company_高管
+    a wg:Person ;
+    rdfs:label "company 高管" .
+
+wg:Wealth_anxiety_market_volatility_company_survival_KPI_pressu
+    a wg:Pressure ;
+    rdfs:label "Wealth anxiety, market volatility, company survival, KPI pressure" .
+
+wg:Cyber_Caishen_God_of_Wealth_Stock_Market_Caishen
+    a wg:CyberProduct ;
+    rdfs:label "Cyber Caishen (God of Wealth), Stock Market Caishen" .
+
+wg:Caishen_God_of_Wealth_Guan_Yu
+    a wg:CulturalTarget ;
+    rdfs:label "Caishen (God of Wealth) / Guan Yu" .
+
+wg:Forwarding_wealth_attracting_memes
+    a wg:DigitalPractice ;
+    rdfs:label "Forwarding wealth-attracting memes" .
+
+wg:offering_digital_incense
+    a wg:DigitalPractice ;
+    rdfs:label "offering digital incense" .
+
+wg:WeChat_Moments
+    a wg:Platform ;
+    rdfs:label "WeChat Moments" .
+
+wg:Business_Forums
+    a wg:Platform ;
+    rdfs:label "Business Forums" .
+
+wg:Financial_success_and_market_luck_are_digitized_into_shareab
+    a wg:TransformationMechanism ;
+    rdfs:label "Financial success and market luck are digitized into shareable merit tokens" .
+
+wg:Hope_generation
+    a wg:AffectiveFunction ;
+    rdfs:label "Hope generation" .
+
+wg:alleviating_financial_stress_and_market_unpredictability
+    a wg:AffectiveFunction ;
+    rdfs:label "alleviating financial stress and market unpredictability" .
+
+wg:Displaying_ambition
+    a wg:MemeFunction ;
+    rdfs:label "Displaying ambition" .
+
+wg:networking_through_shared_business_internet_culture
+    a wg:MemeFunction ;
+    rdfs:label "networking through shared business internet culture" .
+
+wg:Golden_coins_emojis
+    a wg:RitualSymbol ;
+    rdfs:label "Golden coins emojis" .
+
+wg:Cyber_Caishen_wallpapers
+    a wg:RitualSymbol ;
+    rdfs:label "Cyber Caishen wallpapers" .
+
+wg:Digital_golden_toads
+    a wg:RitualSymbol ;
+    rdfs:label "Digital golden toads" .
+
+wg:src_case_02_company
+    a wg:Source ;
+    wg:hasSourceURL <https://www.ctee.com.tw/news/20220812700299-430903> ;
+    wg:hasSourceType "Social Media Post / UGC" .
+
+wg:student
+    a wg:Person ;
+    rdfs:label "student" .
+
+wg:Pre_exam_anxiety_praying_to_pass_praying_for_high_scores
+    a wg:Pressure ;
+    rdfs:label "Pre-exam anxiety, praying to pass, praying for high scores" .
+
+wg:Wenchang_Dijun_Meme_Exam_Blessing_Guanyin
+    a wg:CyberProduct ;
+    rdfs:label "Wenchang Dijun Meme, Exam Blessing Guanyin" .
+
+wg:Wenchang_Dijun_Guanyin_Bodhisattva_of_Compassion
+    a wg:CulturalTarget ;
+    rdfs:label "Wenchang Dijun, Guanyin (Bodhisattva of Compassion)" .
+
+wg:Typing_receive_接_in_comment_sections_to_claim_luck
+    a wg:DigitalPractice ;
+    rdfs:label "Typing \"receive\" (接) in comment sections to claim luck" .
+
+wg:digital_fortune_drawing
+    a wg:DigitalPractice ;
+    rdfs:label "digital fortune drawing" .
+
+wg:Weibo
+    a wg:Platform ;
+    rdfs:label "Weibo" .
+
+wg:Bilibili
+    a wg:Platform ;
+    rdfs:label "Bilibili" .
+
+wg:Xiaohongshu
+    a wg:Platform ;
+    rdfs:label "Xiaohongshu" .
+
+wg:Fast_food_style_blessings
+    a wg:TransformationMechanism ;
+    rdfs:label "Fast-food style blessings" .
+
+wg:Algorithmic_delivery_of_luck_via_feed_recommendations
+    a wg:TransformationMechanism ;
+    rdfs:label "Algorithmic delivery of luck via feed recommendations" .
+
+wg:Confidence_boosting
+    a wg:AffectiveFunction ;
+    rdfs:label "Confidence boosting" .
+
+wg:utilizing_superstition_as_a_cognitive_stress_buffer
+    a wg:AffectiveFunction ;
+    rdfs:label "utilizing superstition as a cognitive stress buffer" .
+
+wg:Viral_spreading_of_luck
+    a wg:MemeFunction ;
+    rdfs:label "Viral spreading of luck" .
+
+wg:engaging_in_a_chain_letter_style_digital_ritual
+    a wg:MemeFunction ;
+    rdfs:label "engaging in a \"chain letter\" style digital ritual" .
+
+wg:The_character_Pass_过
+    a wg:RitualSymbol ;
+    rdfs:label "The character \"Pass\" (过)" .
+
+wg:Koi_fish_锦鲤
+    a wg:RitualSymbol ;
+    rdfs:label "Koi fish (锦鲤)" .
+
+wg:Digital_temple_lot_签
+    a wg:RitualSymbol ;
+    rdfs:label "Digital temple lot (签)" .
+
+wg:src_case_03_student
+    a wg:Source ;
+    wg:hasSourceURL <https://www.xiaohongshu.com/explore/690d977d0000000007036331?xsec_token=AB14wIvvpJa_ncbgDN4_uBdFLILNmBmKt9L6Pia-6Cd7Y=&xsec_source=pc_search&source=web_search_result_notes> ;
+    wg:hasSourceType "Viral Social Media Post" .
+
+wg:Jobseeker
+    a wg:Person ;
+    rdfs:label "Jobseeker" .
+
+wg:Interview_anxiety_offer_anxiety_unemployment_pressure
+    a wg:Pressure ;
+    rdfs:label "Interview anxiety, offer anxiety, unemployment pressure" .
+
+wg:Cyber_Caishen_Offer_Bodhisattva
+    a wg:CyberProduct ;
+    rdfs:label "Cyber Caishen, Offer Bodhisattva" .
+
+wg:Beidi_Bodhisattvas_Gods_of_Fortun
+    a wg:CulturalTarget ;
+    rdfs:label "Beidi Bodhisattvas / Gods of Fortun" .
+
+wg:Forwarding_Offer_Bodhisattva_images
+    a wg:DigitalPractice ;
+    rdfs:label "Forwarding \"Offer Bodhisattva\" images" .
+
+wg:manifesting_jobs_in_comment_sections
+    a wg:DigitalPractice ;
+    rdfs:label "manifesting jobs in comment sections" .
+
+wg:LinkedIn
+    a wg:Platform ;
+    rdfs:label "LinkedIn" .
+
+wg:Maimai
+    a wg:Platform ;
+    rdfs:label "Maimai" .
+
+wg:Career_success_digitized_into_viral_meme_tokens_of_hope
+    a wg:TransformationMechanism ;
+    rdfs:label "Career success digitized into viral meme tokens of hope" .
+
+wg:Combating_rejection_depression
+    a wg:AffectiveFunction ;
+    rdfs:label "Combating rejection depression" .
+
+wg:maintaining_hope_during_job_hunting
+    a wg:AffectiveFunction ;
+    rdfs:label "maintaining hope during job hunting" .
+
+wg:Shared_struggle_identity
+    a wg:MemeFunction ;
+    rdfs:label "Shared struggle identity" .
+
+wg:cynical_yet_hopeful_internet_subculture
+    a wg:MemeFunction ;
+    rdfs:label "cynical yet hopeful internet subculture" .
+
+wg:Offer_text_overlaid_on_Buddhist_halos
+    a wg:RitualSymbol ;
+    rdfs:label "Offer text overlaid on Buddhist halos" .
+
+wg:Lotus_seats_made_of_resumes
+    a wg:RitualSymbol ;
+    rdfs:label "Lotus seats made of resumes" .
+
+wg:src_case_04_jobseeker
+    a wg:Source ;
+    wg:hasSourceURL <https://www.xiaohongshu.com/explore/691d3f0f000000001b0313c8?xsec_token=ABGe1CCERX6yL6bSWN9PO4iesOAGf_iFIhb7MseFwUorI=&xsec_source=pc_search&source=web_search_result_notes> ;
+    wg:hasSourceType "Career Networking Platform UGC" .
+
+wg:Researcher
+    a wg:Person ;
+    rdfs:label "Researcher" .
+
+wg:Thesis_anxiety_citation_anxiety_deadline_ddl_pressure
+    a wg:Pressure ;
+    rdfs:label "Thesis anxiety, citation anxiety, deadline (ddl) pressure" .
+
+wg:Thesis_Bodhisattva_Manjushri_for_Writing
+    a wg:CyberProduct ;
+    rdfs:label "Thesis Bodhisattva, Manjushri for Writing" .
+
+wg:Manjushri_Bodhisattva_of_Intellect_and_Wisdom
+    a wg:CulturalTarget ;
+    rdfs:label "Manjushri (Bodhisattva of Intellect and Wisdom)" .
+
+wg:Worshipping_Paper_accepting_deities
+    a wg:DigitalPractice ;
+    rdfs:label "Worshipping \"Paper accepting\" deities" .
+
+wg:praying_for_peer_review_success
+    a wg:DigitalPractice ;
+    rdfs:label "praying for peer-review success" .
+
+wg:Twitter_X
+    a wg:Platform ;
+    rdfs:label "Twitter (X)" .
+
+wg:Academic_Forums
+    a wg:Platform ;
+    rdfs:label "Academic Forums" .
+
+wg:WeChat
+    a wg:Platform ;
+    rdfs:label "WeChat" .
+
+wg:The_blind_peer_review_process_is_mythologized_into_a_divine_
+    a wg:TransformationMechanism ;
+    rdfs:label "The blind peer-review process is mythologized into a divine/karmic judgment" .
+
+wg:Alleviating_imposter_syndrome
+    a wg:AffectiveFunction ;
+    rdfs:label "Alleviating imposter syndrome" .
+
+wg:coping_with_harsh_academic_reviews_rejections
+    a wg:AffectiveFunction ;
+    rdfs:label "coping with harsh academic reviews/rejections" .
+
+wg:Academic_venting
+    a wg:MemeFunction ;
+    rdfs:label "Academic venting" .
+
+wg:dark_academia_humor
+    a wg:MemeFunction ;
+    rdfs:label "dark academia humor" .
+
+wg:A_Buddha_holding_a_Nature_Science_journal
+    a wg:RitualSymbol ;
+    rdfs:label "A Buddha holding a Nature/Science journal" .
+
+wg:Revise_and_Resubmit_talismans
+    a wg:RitualSymbol ;
+    rdfs:label "\"Revise and Resubmit\" talismans" .
+
+wg:src_case_05_researcher
+    a wg:Source ;
+    wg:hasSourceURL <https://www.xiaohongshu.com/explore/68cebda9000000000b03c5d4?xsec_token=ABtLPhvfv2qCVJoHABkkdtuF7927F5iEKo9mcesGLM4rQ=&xsec_source=pc_search&source=web_search_result_notes> ;
+    wg:hasSourceType "Academic Community Meme" .
+
+wg:健康焦虑者
+    a wg:Person ;
+    rdfs:label "健康焦虑者" .
+
+wg:求平安_求健康
+    a wg:Pressure ;
+    rdfs:label "求平安、求健康" .
+
+wg:Medicine_Buddha_Meme_HealthBlessing_Meme
+    a wg:CyberProduct ;
+    rdfs:label "Medicine Buddha Meme, HealthBlessing Meme" .
+
+wg:Medicine_Buddha_传统祛病符咒
+    a wg:CulturalTarget ;
+    rdfs:label "Medicine Buddha；传统祛病符咒" .
+
+wg:社交媒体_还愿_与转发
+    a wg:DigitalPractice ;
+    rdfs:label "社交媒体“还愿”与转发" .
+
+wg:数字占卜与健康打卡
+    a wg:DigitalPractice ;
+    rdfs:label "数字占卜与健康打卡" .
+
+wg:Rednote
+    a wg:Platform ;
+    rdfs:label "Rednote" .
+
+wg:Apps_Tiktok
+    a wg:Platform ;
+    rdfs:label "Apps；Tiktok" .
+
+wg:facebook
+    a wg:Platform ;
+    rdfs:label "facebook" .
+
+wg:Symbolic_Substitution
+    a wg:TransformationMechanism ;
+    rdfs:label "Symbolic Substitution" .
+
+wg:量化机制
+    a wg:TransformationMechanism ;
+    rdfs:label "量化机制" .
+
+wg:补偿性心理安抚
+    a wg:AffectiveFunction ;
+    rdfs:label "补偿性心理安抚" .
+
+wg:解构沉重感
+    a wg:MemeFunction ;
+    rdfs:label "解构沉重感" .
+
+wg:集体认同感
+    a wg:MemeFunction ;
+    rdfs:label "集体认同感" .
+
+wg:蓝靛色
+    a wg:RitualSymbol ;
+    rdfs:label "蓝靛色" .
+
+wg:佛祖手持输液管
+    a wg:RitualSymbol ;
+    rdfs:label "佛祖手持输液管" .
+
+wg:src_case_06
+    a wg:Source ;
+    wg:hasSourceURL <https://www.xiaohongshu.com/explore/6978af94000000002202db23?app_platform=ios&app_version=9.28&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBG3kfAcsCuJEsmY5M2IoM9U3122iaFtz5rErIhwiUjs4=&author_share=1&xhsshare=WeixinSession&shareRedId=Nz05RjxGSE87N0g2SzwxNzszOT03NjY8&apptime=1777566942&share_id=f2b814a98e174f1591e6dbc5987a781e&wechatWid=368d2a040b7d779a11d67f050cdc7866&wechatOrigin=menu> .
+
+wg:偶然参与者
+    a wg:Person ;
+    rdfs:label "偶然参与者" .
+
+wg:玩梗_内疚_自嘲_赛博功德
+    a wg:Pressure ;
+    rdfs:label "玩梗、内疚、自嘲、赛博功德" .
+
+wg:Gatling_Bodhisattva_Cyber_Merit
+    a wg:CyberProduct ;
+    rdfs:label "Gatling Bodhisattva, Cyber Merit" .
+
+wg:投币许愿池_庙会随机祈福
+    a wg:CulturalTarget ;
+    rdfs:label "投币许愿池；庙会随机祈福" .
+
+wg:路过式_互动_从众性参与_低频打卡
+    a wg:DigitalPractice ;
+    rdfs:label "“路过式”互动；从众性参与；低频打卡" .
+
+wg:Attention_Reengineering_Social_Semantics_浅层符号链接
+    a wg:TransformationMechanism ;
+    rdfs:label "Attention Reengineering；Social Semantics；浅层符号链接" .
+
+wg:Social_Currency
+    a wg:AffectiveFunction ;
+    rdfs:label "Social Currency" .
+
+wg:Lightweight_Amusement
+    a wg:AffectiveFunction ;
+    rdfs:label "Lightweight Amusement" .
+
+wg:Curiosity_Satisfaction
+    a wg:AffectiveFunction ;
+    rdfs:label "Curiosity Satisfaction" .
+
+wg:文化解码器
+    a wg:MemeFunction ;
+    rdfs:label "文化解码器" .
+
+wg:Stickers
+    a wg:RitualSymbol ;
+    rdfs:label "Stickers" .
+
+wg:佛像加上潮流文字
+    a wg:RitualSymbol ;
+    rdfs:label "佛像加上潮流文字" .
+
+wg:meme创作者
+    a wg:Person ;
+    rdfs:label "meme创作者" .
+
+wg:二创_转发_集体玩梗
+    a wg:Pressure ;
+    rdfs:label "二创、转发、集体玩梗" .
+
+wg:Buddha_Reaction_Meme_CyberMerit_Meme
+    a wg:CyberProduct ;
+    rdfs:label "Buddha Reaction Meme, CyberMerit Meme" .
+
+wg:忿怒尊造像_Wrathful_Deities_护法神_变文_变相图
+    a wg:CulturalTarget ;
+    rdfs:label "忿怒尊造像 (Wrathful Deities) / 护法神 / 变文/变相图" .
+
+wg:Collaborative_Tagging_规则重构
+    a wg:DigitalPractice ;
+    rdfs:label "Collaborative Tagging；规则重构" .
+
+wg:Reverse_Engineering_Reengineering_Pattern
+    a wg:TransformationMechanism ;
+    rdfs:label "Reverse Engineering； Reengineering Pattern" .
+
+wg:Subversive_Joy_In_group_Identity_荒诞感的共鸣
+    a wg:AffectiveFunction ;
+    rdfs:label "Subversive Joy；In-group Identity；荒诞感的共鸣" .
+
+wg:Intertextuality_知识压缩与传播_解构
+    a wg:MemeFunction ;
+    rdfs:label "Intertextuality；知识压缩与传播；解构" .
+
+wg:Collage_Aesthetic_自嘲式符号
+    a wg:RitualSymbol ;
+    rdfs:label "Collage Aesthetic；自嘲式符号" .
+
+wg:src_case_08_meme
+    a wg:Source ;
+    wg:hasSourceURL <https://www.xiaohongshu.com/discovery/item/69738cf6000000000c036542?app_platform=ios&app_version=9.28&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBH0PfjlW8eG51qgge27uyTotdKMY8b9QxmwzX-arZrm8=&author_share=1&xhsshare=WeixinSession&shareRedId=Nz05RjxGSE87N0g2SzwxNzszOT03NjY8&apptime=1777571751&share_id=4fd3f9ba386f494788e5906bca50ee2e> .
+
+wg:泛灵性用户
+    a wg:Person ;
+    rdfs:label "泛灵性用户" .
+
+wg:情绪安慰_仪式感_自我_疗愈
+    a wg:Pressure ;
+    rdfs:label "情绪安慰、仪式感、自我:疗愈" .
+
+wg:Online_Incense_Digital_Prayer
+    a wg:CyberProduct ;
+    rdfs:label "Online Incense, Digital Prayer" .
+
+wg:家庭神龛_Home_Altar_禅修_Dhyana_居士供香
+    a wg:CulturalTarget ;
+    rdfs:label "家庭神龛 (Home Altar) / 禅修 (Dhyana) / 居士供香" .
+
+wg:数字供奉与祈祷_寻求_兆头_Omens
+    a wg:DigitalPractice ;
+    rdfs:label "数字供奉与祈祷；寻求“兆头（Omens）”" .
+
+wg:Spiritual_Reengineering_Sensory_Mapping_中介化信仰
+    a wg:TransformationMechanism ;
+    rdfs:label "Spiritual Reengineering；Sensory Mapping；中介化信仰" .
+
+wg:深度心理补偿_孤独感的数字消解
+    a wg:AffectiveFunction ;
+    rdfs:label "深度心理补偿；孤独感的数字消解" .
+
+wg:Cyber_Zen_解构
+    a wg:MemeFunction ;
+    rdfs:label "Cyber Zen；解构" .
+
+wg:辉光与粒子效果_自然与赛博的融合_神圣几何与分形
+    a wg:RitualSymbol ;
+    rdfs:label "辉光与粒子效果；自然与赛博的融合；神圣几何与分形" .
+
+wg:src_case_09
+    a wg:Source ;
+    wg:hasSourceURL <https://www.tiktok.com/@panda_chakra/video/7312128670817160480?q=buddha&t=1777568315443> .
+
+wg:模板_挑战参与者
+    a wg:Person ;
+    rdfs:label "模板/挑战参与者" .
+
+wg:参与挑战_转发模板_社交表达
+    a wg:Pressure ;
+    rdfs:label "参与挑战、转发模板、社交表达" .
+
+wg:RedNote_Blessing_Template_TikTokRitual_Meme
+    a wg:CyberProduct ;
+    rdfs:label "RedNote Blessing Template, TikTokRitual Meme" .
+
+wg:印制灵符_Fu_标准化法事_功德簿登记
+    a wg:CulturalTarget ;
+    rdfs:label "印制灵符 (Fu) / 标准化法事 / 功德簿登记" .
+
+wg:标准化互动_基于模板的生成
+    a wg:DigitalPractice ;
+    rdfs:label "标准化互动；基于模板的生成" .
+
+wg:Schema_实例化_自动化语义对齐
+    a wg:TransformationMechanism ;
+    rdfs:label "Schema 实例化；自动化语义对齐" .
+
+wg:群体共鸣_即时满足_社交货币
+    a wg:AffectiveFunction ;
+    rdfs:label "群体共鸣；即时满足；社交货币" .
+
+wg:梗的标准化_降低认知负荷
+    a wg:MemeFunction ;
+    rdfs:label "梗的标准化；降低认知负荷" .
+
+wg:高频_UI_元素_数字仪表盘
+    a wg:RitualSymbol ;
+    rdfs:label "高频 UI 元素；数字仪表盘" .
+
+wg:Gamer_Fan_改一下更有概括性的名字_抽卡
+    a wg:Person ;
+    rdfs:label "Gamer / Fan （改一下更有概括性的名字，抽卡）" .
+
+wg:Gacha_anxiety_lottery_uncertainty_desire_for_rare_cards_rare
+    a wg:Pressure ;
+    rdfs:label "Gacha anxiety; lottery uncertainty; desire for rare cards, rare characters, successful pulls, or desired idol photocards" .
+
+wg:Gacha_Luck_Meme_Good_Luck_Song_Ritual_Yang_Chaoyue_Blessing_
+    a wg:CyberProduct ;
+    rdfs:label "Gacha Luck Meme; Good Luck Song Ritual; Yang Chaoyue Blessing Image; Huang Zihongfan Pulling-Luck Meme; Lee Taemin Photocard Blessing" .
+
+wg:Luck_seeking_ritual_celebrity_as_luck_symbol_popular_wishing
+    a wg:CulturalTarget ;
+    rdfs:label "Luck-seeking ritual; celebrity-as-luck-symbol; popular wishing practice; draw-lot logic" .
+
+wg:Placing_the_desired_character_image
+    a wg:DigitalPractice ;
+    rdfs:label "Placing the desired character image" .
+
+wg:idol_photo
+    a wg:DigitalPractice ;
+    rdfs:label "idol photo" .
+
+wg:wallpaper
+    a wg:DigitalPractice ;
+    rdfs:label "wallpaper" .
+
+wg:or_blessing_image_near_the_device_before_gacha_or_photocard_
+    a wg:DigitalPractice ;
+    rdfs:label "or blessing image near the device before gacha or photocard opening" .
+
+wg:playing_the_song_Good_Luck_Comes
+    a wg:DigitalPractice ;
+    rdfs:label "playing the song Good Luck Comes" .
+
+wg:worshipping_a_celebrity_image_before_pulling_cards
+    a wg:DigitalPractice ;
+    rdfs:label "worshipping a celebrity image before pulling cards" .
+
+wg:RedNote
+    a wg:Platform ;
+    rdfs:label "RedNote" .
+
+wg:Douyin
+    a wg:Platform ;
+    rdfs:label "Douyin" .
+
+wg:fandom_group_chat
+    a wg:Platform ;
+    rdfs:label "fandom group chat" .
+
+wg:game_communities
+    a wg:Platform ;
+    rdfs:label "game communities" .
+
+wg:Memeification
+    a wg:TransformationMechanism ;
+    rdfs:label "Memeification" .
+
+wg:recontextualisation
+    a wg:TransformationMechanism ;
+    rdfs:label "recontextualisation" .
+
+wg:celebrity_ritualisation
+    a wg:TransformationMechanism ;
+    rdfs:label "celebrity ritualisation" .
+
+wg:affective_reuse
+    a wg:TransformationMechanism ;
+    rdfs:label "affective reuse" .
+
+wg:hybridisation
+    a wg:TransformationMechanism ;
+    rdfs:label "hybridisation" .
+
+wg:Hope
+    a wg:AffectiveFunction ;
+    rdfs:label "Hope" .
+
+wg:excitement
+    a wg:AffectiveFunction ;
+    rdfs:label "excitement" .
+
+wg:anxiety_relief
+    a wg:AffectiveFunction ;
+    rdfs:label "anxiety relief" .
+
+wg:playful_confidence
+    a wg:AffectiveFunction ;
+    rdfs:label "playful confidence" .
+
+wg:emotional_compensation
+    a wg:AffectiveFunction ;
+    rdfs:label "emotional compensation" .
+
+wg:Luck_ritual
+    a wg:MemeFunction ;
+    rdfs:label "Luck ritual" .
+
+wg:fandom_joke
+    a wg:MemeFunction ;
+    rdfs:label "fandom joke" .
+
+wg:gacha_superstition
+    a wg:MemeFunction ;
+    rdfs:label "gacha superstition" .
+
+wg:participatory_meme
+    a wg:MemeFunction ;
+    rdfs:label "participatory meme" .
+
+wg:pre_draw_blessing
+    a wg:MemeFunction ;
+    rdfs:label "pre-draw blessing" .
+
+wg:iPad_screen
+    a wg:RitualSymbol ;
+    rdfs:label "iPad screen" .
+
+wg:character_illustration
+    a wg:RitualSymbol ;
+    rdfs:label "character illustration" .
+
+wg:idol_photo
+    a wg:RitualSymbol ;
+    rdfs:label "idol photo" .
+
+wg:Yang_Chaoyue_blessing_image
+    a wg:RitualSymbol ;
+    rdfs:label "Yang Chaoyue blessing image" .
+
+wg:Good_Luck_Comes_song
+    a wg:RitualSymbol ;
+    rdfs:label "Good Luck Comes song" .
+
+wg:game_interface
+    a wg:RitualSymbol ;
+    rdfs:label "game interface" .
+
+wg:album_photocard
+    a wg:RitualSymbol ;
+    rdfs:label "album photocard" .
+
+wg:src_case_11_gamer_fan
+    a wg:Source ;
+    wg:hasSourceType "Short video; fandom post; game community post; meme image" .
+
+wg:SingleYoungAdult
+    a wg:Person ;
+    rdfs:label "SingleYoungAdult" .
+
+wg:Relationship_anxiety_desire_for_romance_desire_for_peach_blo
+    a wg:Pressure ;
+    rdfs:label "Relationship anxiety; desire for romance; desire for peach-blossom luck; uncertainty in intimacy" .
+
+wg:Love_Fortune_Wallpaper_Peach_Blossom_Avatar_Romance_Manifest
+    a wg:CyberProduct ;
+    rdfs:label "Love Fortune Wallpaper; Peach-Blossom Avatar; Romance Manifestation Post; Cyber Yuelao" .
+
+wg:Yuelao_peach_blossom_luck_law_of_attraction_manifestation_cu
+    a wg:CulturalTarget ;
+    rdfs:label "Yuelao; peach-blossom luck; law of attraction; manifestation culture" .
+
+wg:Using_love_luck_wallpaper_or_peach_blossom_avatar
+    a wg:DigitalPractice ;
+    rdfs:label "Using love-luck wallpaper or peach-blossom avatar" .
+
+wg:saving_or_reposting_romance_manifestation_posts
+    a wg:DigitalPractice ;
+    rdfs:label "saving or reposting romance manifestation posts" .
+
+wg:using_symbolic_images_to_attract_romantic_luck
+    a wg:DigitalPractice ;
+    rdfs:label "using symbolic images to attract romantic luck" .
+
+wg:TikTok
+    a wg:Platform ;
+    rdfs:label "TikTok" .
+
+wg:Instagram
+    a wg:Platform ;
+    rdfs:label "Instagram" .
+
+wg:Pinterest
+    a wg:Platform ;
+    rdfs:label "Pinterest" .
+
+wg:Manifestation
+    a wg:TransformationMechanism ;
+    rdfs:label "Manifestation" .
+
+wg:platformisation
+    a wg:TransformationMechanism ;
+    rdfs:label "platformisation" .
+
+wg:aestheticisation
+    a wg:TransformationMechanism ;
+    rdfs:label "aestheticisation" .
+
+wg:Romantic_hope
+    a wg:AffectiveFunction ;
+    rdfs:label "Romantic hope" .
+
+wg:reassurance
+    a wg:AffectiveFunction ;
+    rdfs:label "reassurance" .
+
+wg:self_comfort
+    a wg:AffectiveFunction ;
+    rdfs:label "self-comfort" .
+
+wg:anticipation
+    a wg:AffectiveFunction ;
+    rdfs:label "anticipation" .
+
+wg:Love_manifestation_template
+    a wg:MemeFunction ;
+    rdfs:label "Love manifestation template" .
+
+wg:wish_making_post
+    a wg:MemeFunction ;
+    rdfs:label "wish-making post" .
+
+wg:romantic_self_branding
+    a wg:MemeFunction ;
+    rdfs:label "romantic self-branding" .
+
+wg:symbolic_attraction_ritual
+    a wg:MemeFunction ;
+    rdfs:label "symbolic attraction ritual" .
+
+wg:Peach_blossom
+    a wg:RitualSymbol ;
+    rdfs:label "Peach blossom" .
+
+wg:pink_colour_scheme
+    a wg:RitualSymbol ;
+    rdfs:label "pink colour scheme" .
+
+wg:couple_imagery
+    a wg:RitualSymbol ;
+    rdfs:label "couple imagery" .
+
+wg:Yuelao_reference
+    a wg:RitualSymbol ;
+    rdfs:label "Yuelao reference" .
+
+wg:affirmation_text
+    a wg:RitualSymbol ;
+    rdfs:label "affirmation text" .
+
+wg:love_luck_wallpaper
+    a wg:RitualSymbol ;
+    rdfs:label "love-luck wallpaper" .
+
+wg:src_case_12_singleyoungadult
+    a wg:Source ;
+    wg:hasSourceType "Social media post; wallpaper; avatar; manifestation content" .
+
+wg:Couple
+    a wg:Person ;
+    rdfs:label "Couple" .
+
+wg:Relationship_insecurity_desire_for_long_lasting_love_desire_
+    a wg:Pressure ;
+    rdfs:label "Relationship insecurity; desire for long-lasting love; desire for reconciliation or emotional stability" .
+
+wg:Relationship_Blessing_Meme_99_Comment_Ritual_CP_99_Blessing_
+    a wg:CyberProduct ;
+    rdfs:label "Relationship Blessing Meme; 99 Comment Ritual; CP 99 Blessing Post" .
+
+wg:Chinese_homophonic_blessing_99_jiujiu_long_lasting_relations
+    a wg:CulturalTarget ;
+    rdfs:label "Chinese homophonic blessing “99 / jiujiu”; long-lasting relationship wish; couple blessing culture" .
+
+wg:Posting_sweet_couple_content_on_social_media_and_asking_othe
+    a wg:DigitalPractice ;
+    rdfs:label "Posting sweet couple content on social media and asking others to comment “99”" .
+
+wg:commenting_99_under_couples_or_shipped_CP_content_to_wish_lo
+    a wg:DigitalPractice ;
+    rdfs:label "commenting “99” under couples or shipped CP content to wish long-lasting love" .
+
+wg:fandom_communities
+    a wg:Platform ;
+    rdfs:label "fandom communities" .
+
+wg:comment_sections
+    a wg:Platform ;
+    rdfs:label "comment sections" .
+
+wg:Platformisation
+    a wg:TransformationMechanism ;
+    rdfs:label "Platformisation" .
+
+wg:comment_ritualisation
+    a wg:TransformationMechanism ;
+    rdfs:label "comment ritualisation" .
+
+wg:memeification
+    a wg:TransformationMechanism ;
+    rdfs:label "memeification" .
+
+wg:homophonic_transformation
+    a wg:TransformationMechanism ;
+    rdfs:label "homophonic transformation" .
+
+wg:Emotional_reassurance
+    a wg:AffectiveFunction ;
+    rdfs:label "Emotional reassurance" .
+
+wg:relationship_stability
+    a wg:AffectiveFunction ;
+    rdfs:label "relationship stability" .
+
+wg:collective_blessing
+    a wg:AffectiveFunction ;
+    rdfs:label "collective blessing" .
+
+wg:intimacy_confirmation
+    a wg:AffectiveFunction ;
+    rdfs:label "intimacy confirmation" .
+
+wg:Comment_ritual
+    a wg:MemeFunction ;
+    rdfs:label "Comment ritual" .
+
+wg:couple_blessing_meme
+    a wg:MemeFunction ;
+    rdfs:label "couple blessing meme" .
+
+wg:CP_support_meme
+    a wg:MemeFunction ;
+    rdfs:label "CP support meme" .
+
+wg:participatory_blessing
+    a wg:MemeFunction ;
+    rdfs:label "participatory blessing" .
+
+wg:99_comment
+    a wg:RitualSymbol ;
+    rdfs:label "“99” comment" .
+
+wg:heart_emoji
+    a wg:RitualSymbol ;
+    rdfs:label "heart emoji" .
+
+wg:couple_photo
+    a wg:RitualSymbol ;
+    rdfs:label "couple photo" .
+
+wg:sweet_caption
+    a wg:RitualSymbol ;
+    rdfs:label "sweet caption" .
+
+wg:blessing_text
+    a wg:RitualSymbol ;
+    rdfs:label "blessing text" .
+
+wg:CP_imagery
+    a wg:RitualSymbol ;
+    rdfs:label "CP imagery" .
+
+wg:src_case_13_couple
+    a wg:Source ;
+    wg:hasSourceType "Social media comment; couple post; fandom post" .
+
+wg:Traveller
+    a wg:Person ;
+    rdfs:label "Traveller" .
+
+wg:Travel_uncertainty_safety_concerns_flight_disruption_anxiety
+    a wg:Pressure ;
+    rdfs:label "Travel uncertainty; safety concerns; flight disruption anxiety; desire for safe and smooth journeys" .
+
+wg:Cyber_Mazu_Online_Mazu_Divination_Digital_Poe_Divination_Saf
+    a wg:CyberProduct ;
+    rdfs:label "Cyber Mazu; Online Mazu Divination; Digital Poe Divination; Safe Journey Blessing" .
+
+wg:Mazu_worship_Mazu_as_protector_of_seafarers_and_travellers_p
+    a wg:CulturalTarget ;
+    rdfs:label "Mazu worship; Mazu as protector of seafarers and travellers; poe divination / throwing sacred blocks; travel safety blessing" .
+
+wg:Reposting_Mazu_images_for_safe_travel
+    a wg:DigitalPractice ;
+    rdfs:label "Reposting Mazu images for safe travel" .
+
+wg:using_cyber_poe_divination_to_ask_whether_a_journey_will_be_
+    a wg:DigitalPractice ;
+    rdfs:label "using cyber poe divination to ask whether a journey will be safe" .
+
+wg:seeking_online_Mazu_fortune_or_travel_blessing
+    a wg:DigitalPractice ;
+    rdfs:label "seeking online Mazu fortune or travel blessing" .
+
+wg:temple_website
+    a wg:Platform ;
+    rdfs:label "temple website" .
+
+wg:online_divination_website
+    a wg:Platform ;
+    rdfs:label "online divination website" .
+
+wg:travel_communities
+    a wg:Platform ;
+    rdfs:label "travel communities" .
+
+wg:Interface_simulation
+    a wg:TransformationMechanism ;
+    rdfs:label "Interface simulation" .
+
+wg:digital_divination
+    a wg:TransformationMechanism ;
+    rdfs:label "digital divination" .
+
+wg:ritual_simulation
+    a wg:TransformationMechanism ;
+    rdfs:label "ritual simulation" .
+
+wg:Safety_reassurance
+    a wg:AffectiveFunction ;
+    rdfs:label "Safety reassurance" .
+
+wg:reduction_of_travel_anxiety
+    a wg:AffectiveFunction ;
+    rdfs:label "reduction of travel anxiety" .
+
+wg:hope_for_smooth_journey
+    a wg:AffectiveFunction ;
+    rdfs:label "hope for smooth journey" .
+
+wg:spiritual_comfort
+    a wg:AffectiveFunction ;
+    rdfs:label "spiritual comfort" .
+
+wg:Travel_blessing_ritual
+    a wg:MemeFunction ;
+    rdfs:label "Travel blessing ritual" .
+
+wg:online_divination_practice
+    a wg:MemeFunction ;
+    rdfs:label "online divination practice" .
+
+wg:safe_journey_wish
+    a wg:MemeFunction ;
+    rdfs:label "safe-journey wish" .
+
+wg:participatory_ritual
+    a wg:MemeFunction ;
+    rdfs:label "participatory ritual" .
+
+wg:Mazu_image
+    a wg:RitualSymbol ;
+    rdfs:label "Mazu image" .
+
+wg:temple_iconography
+    a wg:RitualSymbol ;
+    rdfs:label "temple iconography" .
+
+wg:sacred_blocks_poe
+    a wg:RitualSymbol ;
+    rdfs:label "sacred blocks / poe" .
+
+wg:divination_interface
+    a wg:RitualSymbol ;
+    rdfs:label "divination interface" .
+
+wg:incense
+    a wg:RitualSymbol ;
+    rdfs:label "incense" .
+
+wg:travel_blessing_text
+    a wg:RitualSymbol ;
+    rdfs:label "travel blessing text" .
+
+wg:src_case_14_traveller
+    a wg:Source ;
+    wg:hasSourceType "Social media post; online divination tool; folk belief source; temple website" .
+
+# ─────────────────────────────────────────────────────────────────────────
+# CyberWishingCase individuals
+# ─────────────────────────────────────────────────────────────────────────
+
+wg:case_01_programmer
+    a wg:CyberWishingCase , owl:NamedIndividual ;
+    rdfs:label "CyberWishingCase_1: Programmer" ;
+    wg:hasPerson wg:Programmer ;
+    wg:hasPressure wg:Bugs_debugging_code_crashes_project_launch_pressure ;
+    wg:usesCyberProduct wg:Cyber_Manjushri_Debugging_Bodhisattva ;
+    wg:alignsWithCulturalTarget wg:Manjushri_Bodhisattva_of_Wisdom_Guardian_of_Stability ;
+    wg:performsPractice wg:Worshipping_the_server ;
+    wg:performsPractice wg:pasting_digital_talismans_in_code_comments ;
+    wg:performsPractice wg:sharing_debug_memes ;
+    wg:circulatesOnPlatform wg:GitHub ;
+    wg:circulatesOnPlatform wg:Tech_Forums ;
+    wg:circulatesOnPlatform wg:WeChat_Groups ;
+    wg:hasTransformationMechanism wg:Algorithmic_blessing ;
+    wg:hasTransformationMechanism wg:Server_stability_is_mythologized_into_a_spiritual_state ;
+    wg:servesAffectiveFunction wg:Anxiety_relief ;
+    wg:servesAffectiveFunction wg:seeking_control_over_unpredictable_technical_errors ;
+    wg:servesMemeFunction wg:Tech_community_bonding ;
+    wg:servesMemeFunction wg:self_deprecating_humor_code_works_by_magic ;
+    wg:usesRitualSymbol wg:Code_comments_formatted_as_Buddha_ASCII_art ;
+    wg:usesRitualSymbol wg:Server_Talisman_符 ;
+    wg:hasSource wg:src_case_01_programmer .
+
+wg:case_02_company
+    a wg:CyberWishingCase , owl:NamedIndividual ;
+    rdfs:label "CyberWishingCase_2: company 高管" ;
+    wg:hasPerson wg:company_高管 ;
+    wg:hasPressure wg:Wealth_anxiety_market_volatility_company_survival_KPI_pressu ;
+    wg:usesCyberProduct wg:Cyber_Caishen_God_of_Wealth_Stock_Market_Caishen ;
+    wg:alignsWithCulturalTarget wg:Caishen_God_of_Wealth_Guan_Yu ;
+    wg:performsPractice wg:Forwarding_wealth_attracting_memes ;
+    wg:performsPractice wg:offering_digital_incense ;
+    wg:circulatesOnPlatform wg:WeChat_Moments ;
+    wg:circulatesOnPlatform wg:Business_Forums ;
+    wg:hasTransformationMechanism wg:Financial_success_and_market_luck_are_digitized_into_shareab ;
+    wg:servesAffectiveFunction wg:Hope_generation ;
+    wg:servesAffectiveFunction wg:alleviating_financial_stress_and_market_unpredictability ;
+    wg:servesMemeFunction wg:Displaying_ambition ;
+    wg:servesMemeFunction wg:networking_through_shared_business_internet_culture ;
+    wg:usesRitualSymbol wg:Golden_coins_emojis ;
+    wg:usesRitualSymbol wg:Cyber_Caishen_wallpapers ;
+    wg:usesRitualSymbol wg:Digital_golden_toads ;
+    wg:hasSource wg:src_case_02_company .
+
+wg:case_03_student
+    a wg:CyberWishingCase , owl:NamedIndividual ;
+    rdfs:label "CyberWishingCase_3: student" ;
+    wg:hasPerson wg:student ;
+    wg:hasPressure wg:Pre_exam_anxiety_praying_to_pass_praying_for_high_scores ;
+    wg:usesCyberProduct wg:Wenchang_Dijun_Meme_Exam_Blessing_Guanyin ;
+    wg:alignsWithCulturalTarget wg:Wenchang_Dijun_Guanyin_Bodhisattva_of_Compassion ;
+    wg:performsPractice wg:Typing_receive_接_in_comment_sections_to_claim_luck ;
+    wg:performsPractice wg:digital_fortune_drawing ;
+    wg:circulatesOnPlatform wg:Weibo ;
+    wg:circulatesOnPlatform wg:Bilibili ;
+    wg:circulatesOnPlatform wg:Xiaohongshu ;
+    wg:hasTransformationMechanism wg:Fast_food_style_blessings ;
+    wg:hasTransformationMechanism wg:Algorithmic_delivery_of_luck_via_feed_recommendations ;
+    wg:servesAffectiveFunction wg:Confidence_boosting ;
+    wg:servesAffectiveFunction wg:utilizing_superstition_as_a_cognitive_stress_buffer ;
+    wg:servesMemeFunction wg:Viral_spreading_of_luck ;
+    wg:servesMemeFunction wg:engaging_in_a_chain_letter_style_digital_ritual ;
+    wg:usesRitualSymbol wg:The_character_Pass_过 ;
+    wg:usesRitualSymbol wg:Koi_fish_锦鲤 ;
+    wg:usesRitualSymbol wg:Digital_temple_lot_签 ;
+    wg:hasSource wg:src_case_03_student .
+
+wg:case_04_jobseeker
+    a wg:CyberWishingCase , owl:NamedIndividual ;
+    rdfs:label "CyberWishingCase_4: Jobseeker" ;
+    wg:hasPerson wg:Jobseeker ;
+    wg:hasPressure wg:Interview_anxiety_offer_anxiety_unemployment_pressure ;
+    wg:usesCyberProduct wg:Cyber_Caishen_Offer_Bodhisattva ;
+    wg:alignsWithCulturalTarget wg:Beidi_Bodhisattvas_Gods_of_Fortun ;
+    wg:performsPractice wg:Forwarding_Offer_Bodhisattva_images ;
+    wg:performsPractice wg:manifesting_jobs_in_comment_sections ;
+    wg:circulatesOnPlatform wg:LinkedIn ;
+    wg:circulatesOnPlatform wg:Maimai ;
+    wg:circulatesOnPlatform wg:Xiaohongshu ;
+    wg:hasTransformationMechanism wg:Career_success_digitized_into_viral_meme_tokens_of_hope ;
+    wg:servesAffectiveFunction wg:Combating_rejection_depression ;
+    wg:servesAffectiveFunction wg:maintaining_hope_during_job_hunting ;
+    wg:servesMemeFunction wg:Shared_struggle_identity ;
+    wg:servesMemeFunction wg:cynical_yet_hopeful_internet_subculture ;
+    wg:usesRitualSymbol wg:Offer_text_overlaid_on_Buddhist_halos ;
+    wg:usesRitualSymbol wg:Lotus_seats_made_of_resumes ;
+    wg:hasSource wg:src_case_04_jobseeker .
+
+wg:case_05_researcher
+    a wg:CyberWishingCase , owl:NamedIndividual ;
+    rdfs:label "CyberWishingCase_5: Researcher" ;
+    wg:hasPerson wg:Researcher ;
+    wg:hasPressure wg:Thesis_anxiety_citation_anxiety_deadline_ddl_pressure ;
+    wg:usesCyberProduct wg:Thesis_Bodhisattva_Manjushri_for_Writing ;
+    wg:alignsWithCulturalTarget wg:Manjushri_Bodhisattva_of_Intellect_and_Wisdom ;
+    wg:performsPractice wg:Worshipping_Paper_accepting_deities ;
+    wg:performsPractice wg:praying_for_peer_review_success ;
+    wg:circulatesOnPlatform wg:Twitter_X ;
+    wg:circulatesOnPlatform wg:Academic_Forums ;
+    wg:circulatesOnPlatform wg:WeChat ;
+    wg:hasTransformationMechanism wg:The_blind_peer_review_process_is_mythologized_into_a_divine_ ;
+    wg:servesAffectiveFunction wg:Alleviating_imposter_syndrome ;
+    wg:servesAffectiveFunction wg:coping_with_harsh_academic_reviews_rejections ;
+    wg:servesMemeFunction wg:Academic_venting ;
+    wg:servesMemeFunction wg:dark_academia_humor ;
+    wg:usesRitualSymbol wg:A_Buddha_holding_a_Nature_Science_journal ;
+    wg:usesRitualSymbol wg:Revise_and_Resubmit_talismans ;
+    wg:hasSource wg:src_case_05_researcher .
+
+wg:case_06
+    a wg:CyberWishingCase , owl:NamedIndividual ;
+    rdfs:label "CyberWishingCase_6: 健康焦虑者" ;
+    wg:hasPerson wg:健康焦虑者 ;
+    wg:hasPressure wg:求平安_求健康 ;
+    wg:usesCyberProduct wg:Medicine_Buddha_Meme_HealthBlessing_Meme ;
+    wg:alignsWithCulturalTarget wg:Medicine_Buddha_传统祛病符咒 ;
+    wg:performsPractice wg:社交媒体_还愿_与转发 ;
+    wg:performsPractice wg:数字占卜与健康打卡 ;
+    wg:circulatesOnPlatform wg:Rednote ;
+    wg:circulatesOnPlatform wg:Apps_Tiktok ;
+    wg:circulatesOnPlatform wg:Weibo ;
+    wg:circulatesOnPlatform wg:facebook ;
+    wg:hasTransformationMechanism wg:Symbolic_Substitution ;
+    wg:hasTransformationMechanism wg:量化机制 ;
+    wg:servesAffectiveFunction wg:补偿性心理安抚 ;
+    wg:servesMemeFunction wg:解构沉重感 ;
+    wg:servesMemeFunction wg:集体认同感 ;
+    wg:usesRitualSymbol wg:蓝靛色 ;
+    wg:usesRitualSymbol wg:佛祖手持输液管 ;
+    wg:hasSource wg:src_case_06 .
+
+wg:case_07
+    a wg:CyberWishingCase , owl:NamedIndividual ;
+    rdfs:label "CyberWishingCase_7: 偶然参与者" ;
+    wg:hasPerson wg:偶然参与者 ;
+    wg:hasPressure wg:玩梗_内疚_自嘲_赛博功德 ;
+    wg:usesCyberProduct wg:Gatling_Bodhisattva_Cyber_Merit ;
+    wg:alignsWithCulturalTarget wg:投币许愿池_庙会随机祈福 ;
+    wg:performsPractice wg:路过式_互动_从众性参与_低频打卡 ;
+    wg:circulatesOnPlatform wg:Rednote ;
+    wg:circulatesOnPlatform wg:Apps_Tiktok ;
+    wg:circulatesOnPlatform wg:Weibo ;
+    wg:circulatesOnPlatform wg:facebook ;
+    wg:hasTransformationMechanism wg:Attention_Reengineering_Social_Semantics_浅层符号链接 ;
+    wg:servesAffectiveFunction wg:Social_Currency ;
+    wg:servesAffectiveFunction wg:Lightweight_Amusement ;
+    wg:servesAffectiveFunction wg:Curiosity_Satisfaction ;
+    wg:servesMemeFunction wg:文化解码器 ;
+    wg:usesRitualSymbol wg:Stickers ;
+    wg:usesRitualSymbol wg:佛像加上潮流文字 .
+
+wg:case_08_meme
+    a wg:CyberWishingCase , owl:NamedIndividual ;
+    rdfs:label "CyberWishingCase_8: meme创作者" ;
+    wg:hasPerson wg:meme创作者 ;
+    wg:hasPressure wg:二创_转发_集体玩梗 ;
+    wg:usesCyberProduct wg:Buddha_Reaction_Meme_CyberMerit_Meme ;
+    wg:alignsWithCulturalTarget wg:忿怒尊造像_Wrathful_Deities_护法神_变文_变相图 ;
+    wg:performsPractice wg:Collaborative_Tagging_规则重构 ;
+    wg:circulatesOnPlatform wg:Rednote ;
+    wg:circulatesOnPlatform wg:Apps_Tiktok ;
+    wg:circulatesOnPlatform wg:Weibo ;
+    wg:circulatesOnPlatform wg:facebook ;
+    wg:hasTransformationMechanism wg:Reverse_Engineering_Reengineering_Pattern ;
+    wg:servesAffectiveFunction wg:Subversive_Joy_In_group_Identity_荒诞感的共鸣 ;
+    wg:servesMemeFunction wg:Intertextuality_知识压缩与传播_解构 ;
+    wg:usesRitualSymbol wg:Collage_Aesthetic_自嘲式符号 ;
+    wg:hasSource wg:src_case_08_meme .
+
+wg:case_09
+    a wg:CyberWishingCase , owl:NamedIndividual ;
+    rdfs:label "CyberWishingCase_9: 泛灵性用户" ;
+    wg:hasPerson wg:泛灵性用户 ;
+    wg:hasPressure wg:情绪安慰_仪式感_自我_疗愈 ;
+    wg:usesCyberProduct wg:Online_Incense_Digital_Prayer ;
+    wg:alignsWithCulturalTarget wg:家庭神龛_Home_Altar_禅修_Dhyana_居士供香 ;
+    wg:performsPractice wg:数字供奉与祈祷_寻求_兆头_Omens ;
+    wg:circulatesOnPlatform wg:Rednote ;
+    wg:circulatesOnPlatform wg:Apps_Tiktok ;
+    wg:circulatesOnPlatform wg:Weibo ;
+    wg:circulatesOnPlatform wg:facebook ;
+    wg:hasTransformationMechanism wg:Spiritual_Reengineering_Sensory_Mapping_中介化信仰 ;
+    wg:servesAffectiveFunction wg:深度心理补偿_孤独感的数字消解 ;
+    wg:servesMemeFunction wg:Cyber_Zen_解构 ;
+    wg:usesRitualSymbol wg:辉光与粒子效果_自然与赛博的融合_神圣几何与分形 ;
+    wg:hasSource wg:src_case_09 .
+
+wg:case_10
+    a wg:CyberWishingCase , owl:NamedIndividual ;
+    rdfs:label "CyberWishingCase_10: 模板/挑战参与者" ;
+    wg:hasPerson wg:模板_挑战参与者 ;
+    wg:hasPressure wg:参与挑战_转发模板_社交表达 ;
+    wg:usesCyberProduct wg:RedNote_Blessing_Template_TikTokRitual_Meme ;
+    wg:alignsWithCulturalTarget wg:印制灵符_Fu_标准化法事_功德簿登记 ;
+    wg:performsPractice wg:标准化互动_基于模板的生成 ;
+    wg:circulatesOnPlatform wg:Rednote ;
+    wg:circulatesOnPlatform wg:Apps_Tiktok ;
+    wg:circulatesOnPlatform wg:Weibo ;
+    wg:circulatesOnPlatform wg:facebook ;
+    wg:hasTransformationMechanism wg:Schema_实例化_自动化语义对齐 ;
+    wg:servesAffectiveFunction wg:群体共鸣_即时满足_社交货币 ;
+    wg:servesMemeFunction wg:梗的标准化_降低认知负荷 ;
+    wg:usesRitualSymbol wg:高频_UI_元素_数字仪表盘 .
+
+wg:case_11_gamer_fan
+    a wg:CyberWishingCase , owl:NamedIndividual ;
+    rdfs:label "CyberWishingCase_11: Gamer / Fan （改一下更有概括性的名字，抽卡）" ;
+    wg:hasPerson wg:Gamer_Fan_改一下更有概括性的名字_抽卡 ;
+    wg:hasPressure wg:Gacha_anxiety_lottery_uncertainty_desire_for_rare_cards_rare ;
+    wg:usesCyberProduct wg:Gacha_Luck_Meme_Good_Luck_Song_Ritual_Yang_Chaoyue_Blessing_ ;
+    wg:alignsWithCulturalTarget wg:Luck_seeking_ritual_celebrity_as_luck_symbol_popular_wishing ;
+    wg:performsPractice wg:Placing_the_desired_character_image ;
+    wg:performsPractice wg:idol_photo ;
+    wg:performsPractice wg:wallpaper ;
+    wg:performsPractice wg:or_blessing_image_near_the_device_before_gacha_or_photocard_ ;
+    wg:performsPractice wg:playing_the_song_Good_Luck_Comes ;
+    wg:performsPractice wg:worshipping_a_celebrity_image_before_pulling_cards ;
+    wg:circulatesOnPlatform wg:Bilibili ;
+    wg:circulatesOnPlatform wg:RedNote ;
+    wg:circulatesOnPlatform wg:Weibo ;
+    wg:circulatesOnPlatform wg:Douyin ;
+    wg:circulatesOnPlatform wg:fandom_group_chat ;
+    wg:circulatesOnPlatform wg:game_communities ;
+    wg:hasTransformationMechanism wg:Memeification ;
+    wg:hasTransformationMechanism wg:recontextualisation ;
+    wg:hasTransformationMechanism wg:celebrity_ritualisation ;
+    wg:hasTransformationMechanism wg:affective_reuse ;
+    wg:hasTransformationMechanism wg:hybridisation ;
+    wg:servesAffectiveFunction wg:Hope ;
+    wg:servesAffectiveFunction wg:excitement ;
+    wg:servesAffectiveFunction wg:anxiety_relief ;
+    wg:servesAffectiveFunction wg:playful_confidence ;
+    wg:servesAffectiveFunction wg:emotional_compensation ;
+    wg:servesMemeFunction wg:Luck_ritual ;
+    wg:servesMemeFunction wg:fandom_joke ;
+    wg:servesMemeFunction wg:gacha_superstition ;
+    wg:servesMemeFunction wg:participatory_meme ;
+    wg:servesMemeFunction wg:pre_draw_blessing ;
+    wg:usesRitualSymbol wg:iPad_screen ;
+    wg:usesRitualSymbol wg:character_illustration ;
+    wg:usesRitualSymbol wg:idol_photo ;
+    wg:usesRitualSymbol wg:Yang_Chaoyue_blessing_image ;
+    wg:usesRitualSymbol wg:Good_Luck_Comes_song ;
+    wg:usesRitualSymbol wg:game_interface ;
+    wg:usesRitualSymbol wg:album_photocard ;
+    wg:hasSource wg:src_case_11_gamer_fan .
+
+wg:case_12_singleyoungadult
+    a wg:CyberWishingCase , owl:NamedIndividual ;
+    rdfs:label "CyberWishingCase_12: SingleYoungAdult" ;
+    wg:hasPerson wg:SingleYoungAdult ;
+    wg:hasPressure wg:Relationship_anxiety_desire_for_romance_desire_for_peach_blo ;
+    wg:usesCyberProduct wg:Love_Fortune_Wallpaper_Peach_Blossom_Avatar_Romance_Manifest ;
+    wg:alignsWithCulturalTarget wg:Yuelao_peach_blossom_luck_law_of_attraction_manifestation_cu ;
+    wg:performsPractice wg:Using_love_luck_wallpaper_or_peach_blossom_avatar ;
+    wg:performsPractice wg:saving_or_reposting_romance_manifestation_posts ;
+    wg:performsPractice wg:using_symbolic_images_to_attract_romantic_luck ;
+    wg:circulatesOnPlatform wg:RedNote ;
+    wg:circulatesOnPlatform wg:Weibo ;
+    wg:circulatesOnPlatform wg:TikTok ;
+    wg:circulatesOnPlatform wg:Instagram ;
+    wg:circulatesOnPlatform wg:Pinterest ;
+    wg:hasTransformationMechanism wg:Manifestation ;
+    wg:hasTransformationMechanism wg:recontextualisation ;
+    wg:hasTransformationMechanism wg:platformisation ;
+    wg:hasTransformationMechanism wg:aestheticisation ;
+    wg:hasTransformationMechanism wg:affective_reuse ;
+    wg:servesAffectiveFunction wg:Romantic_hope ;
+    wg:servesAffectiveFunction wg:reassurance ;
+    wg:servesAffectiveFunction wg:self_comfort ;
+    wg:servesAffectiveFunction wg:anticipation ;
+    wg:servesAffectiveFunction wg:emotional_compensation ;
+    wg:servesMemeFunction wg:Love_manifestation_template ;
+    wg:servesMemeFunction wg:wish_making_post ;
+    wg:servesMemeFunction wg:romantic_self_branding ;
+    wg:servesMemeFunction wg:symbolic_attraction_ritual ;
+    wg:usesRitualSymbol wg:Peach_blossom ;
+    wg:usesRitualSymbol wg:pink_colour_scheme ;
+    wg:usesRitualSymbol wg:couple_imagery ;
+    wg:usesRitualSymbol wg:Yuelao_reference ;
+    wg:usesRitualSymbol wg:affirmation_text ;
+    wg:usesRitualSymbol wg:love_luck_wallpaper ;
+    wg:hasSource wg:src_case_12_singleyoungadult .
+
+wg:case_13_couple
+    a wg:CyberWishingCase , owl:NamedIndividual ;
+    rdfs:label "CyberWishingCase_13: Couple" ;
+    wg:hasPerson wg:Couple ;
+    wg:hasPressure wg:Relationship_insecurity_desire_for_long_lasting_love_desire_ ;
+    wg:usesCyberProduct wg:Relationship_Blessing_Meme_99_Comment_Ritual_CP_99_Blessing_ ;
+    wg:alignsWithCulturalTarget wg:Chinese_homophonic_blessing_99_jiujiu_long_lasting_relations ;
+    wg:performsPractice wg:Posting_sweet_couple_content_on_social_media_and_asking_othe ;
+    wg:performsPractice wg:commenting_99_under_couples_or_shipped_CP_content_to_wish_lo ;
+    wg:circulatesOnPlatform wg:Weibo ;
+    wg:circulatesOnPlatform wg:RedNote ;
+    wg:circulatesOnPlatform wg:Douyin ;
+    wg:circulatesOnPlatform wg:Instagram ;
+    wg:circulatesOnPlatform wg:fandom_communities ;
+    wg:circulatesOnPlatform wg:comment_sections ;
+    wg:hasTransformationMechanism wg:Platformisation ;
+    wg:hasTransformationMechanism wg:comment_ritualisation ;
+    wg:hasTransformationMechanism wg:memeification ;
+    wg:hasTransformationMechanism wg:homophonic_transformation ;
+    wg:servesAffectiveFunction wg:Emotional_reassurance ;
+    wg:servesAffectiveFunction wg:relationship_stability ;
+    wg:servesAffectiveFunction wg:collective_blessing ;
+    wg:servesAffectiveFunction wg:intimacy_confirmation ;
+    wg:servesMemeFunction wg:Comment_ritual ;
+    wg:servesMemeFunction wg:couple_blessing_meme ;
+    wg:servesMemeFunction wg:CP_support_meme ;
+    wg:servesMemeFunction wg:participatory_blessing ;
+    wg:usesRitualSymbol wg:99_comment ;
+    wg:usesRitualSymbol wg:heart_emoji ;
+    wg:usesRitualSymbol wg:couple_photo ;
+    wg:usesRitualSymbol wg:sweet_caption ;
+    wg:usesRitualSymbol wg:blessing_text ;
+    wg:usesRitualSymbol wg:CP_imagery ;
+    wg:hasSource wg:src_case_13_couple .
+
+wg:case_14_traveller
+    a wg:CyberWishingCase , owl:NamedIndividual ;
+    rdfs:label "CyberWishingCase_14: Traveller" ;
+    wg:hasPerson wg:Traveller ;
+    wg:hasPressure wg:Travel_uncertainty_safety_concerns_flight_disruption_anxiety ;
+    wg:usesCyberProduct wg:Cyber_Mazu_Online_Mazu_Divination_Digital_Poe_Divination_Saf ;
+    wg:alignsWithCulturalTarget wg:Mazu_worship_Mazu_as_protector_of_seafarers_and_travellers_p ;
+    wg:performsPractice wg:Reposting_Mazu_images_for_safe_travel ;
+    wg:performsPractice wg:using_cyber_poe_divination_to_ask_whether_a_journey_will_be_ ;
+    wg:performsPractice wg:seeking_online_Mazu_fortune_or_travel_blessing ;
+    wg:circulatesOnPlatform wg:RedNote ;
+    wg:circulatesOnPlatform wg:WeChat ;
+    wg:circulatesOnPlatform wg:Weibo ;
+    wg:circulatesOnPlatform wg:temple_website ;
+    wg:circulatesOnPlatform wg:online_divination_website ;
+    wg:circulatesOnPlatform wg:travel_communities ;
+    wg:hasTransformationMechanism wg:Interface_simulation ;
+    wg:hasTransformationMechanism wg:platformisation ;
+    wg:hasTransformationMechanism wg:digital_divination ;
+    wg:hasTransformationMechanism wg:recontextualisation ;
+    wg:hasTransformationMechanism wg:ritual_simulation ;
+    wg:servesAffectiveFunction wg:Safety_reassurance ;
+    wg:servesAffectiveFunction wg:reduction_of_travel_anxiety ;
+    wg:servesAffectiveFunction wg:hope_for_smooth_journey ;
+    wg:servesAffectiveFunction wg:spiritual_comfort ;
+    wg:servesMemeFunction wg:Travel_blessing_ritual ;
+    wg:servesMemeFunction wg:online_divination_practice ;
+    wg:servesMemeFunction wg:safe_journey_wish ;
+    wg:servesMemeFunction wg:participatory_ritual ;
+    wg:usesRitualSymbol wg:Mazu_image ;
+    wg:usesRitualSymbol wg:temple_iconography ;
+    wg:usesRitualSymbol wg:sacred_blocks_poe ;
+    wg:usesRitualSymbol wg:divination_interface ;
+    wg:usesRitualSymbol wg:incense ;
+    wg:usesRitualSymbol wg:travel_blessing_text ;
+    wg:hasSource wg:src_case_14_traveller .

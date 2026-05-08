@@ -1,0 +1,105 @@
+# WishGraph SPARQL Queries
+# Based on the 5 Competency Questions defined in the WishGraph ontology.
+# Endpoint: load wishgraph_full.ttl into any SPARQL engine (Apache Jena, GraphDB, Protégé, etc.)
+
+PREFIX wg:    <https://example.org/wishgraph#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+
+# ─────────────────────────────────────────────────────────────────────────────
+# CQ1: Actors and Pressures
+# Which types of users engage in cyber-wishing, and what pressures or desires
+# motivate them?
+# ─────────────────────────────────────────────────────────────────────────────
+
+SELECT ?case ?personLabel ?pressureLabel
+WHERE {
+    ?case a wg:CyberWishingCase .
+    ?case wg:hasPerson ?person .
+    ?case wg:hasPressure ?pressure .
+    ?person  rdfs:label ?personLabel .
+    ?pressure rdfs:label ?pressureLabel .
+}
+ORDER BY ?personLabel
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# CQ2: Traditional References and Cyber Products
+# How are traditional deities / ritual objects transformed into cyber products?
+# ─────────────────────────────────────────────────────────────────────────────
+
+SELECT ?case ?cyberProductLabel ?culturalTargetLabel ?mechanismLabel
+WHERE {
+    ?case a wg:CyberWishingCase .
+    ?case wg:usesCyberProduct ?product .
+    ?product rdfs:label ?cyberProductLabel .
+    OPTIONAL {
+        ?case wg:alignsWithCulturalTarget ?target .
+        ?target rdfs:label ?culturalTargetLabel .
+    }
+    OPTIONAL {
+        ?case wg:hasTransformationMechanism ?mech .
+        ?mech rdfs:label ?mechanismLabel .
+    }
+}
+ORDER BY ?cyberProductLabel
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# CQ3: Digital Practices and Platforms
+# What digital practices mediate cyber-wishing across different platforms?
+# ─────────────────────────────────────────────────────────────────────────────
+
+SELECT ?platformLabel (GROUP_CONCAT(DISTINCT ?practiceLabel ; separator=" | ") AS ?practices)
+WHERE {
+    ?case a wg:CyberWishingCase .
+    ?case wg:circulatesOnPlatform ?platform .
+    ?case wg:performsPractice ?practice .
+    ?platform  rdfs:label ?platformLabel .
+    ?practice  rdfs:label ?practiceLabel .
+}
+GROUP BY ?platformLabel
+ORDER BY ?platformLabel
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# CQ4: Affective Functions
+# What affective functions do cyber-wishing practices serve for different
+# user groups?
+# ─────────────────────────────────────────────────────────────────────────────
+
+SELECT ?personLabel (GROUP_CONCAT(DISTINCT ?affectiveLabel ; separator=" | ") AS ?affectiveFunctions)
+WHERE {
+    ?case a wg:CyberWishingCase .
+    ?case wg:hasPerson ?person .
+    ?case wg:servesAffectiveFunction ?af .
+    ?person  rdfs:label ?personLabel .
+    ?af      rdfs:label ?affectiveLabel .
+}
+GROUP BY ?personLabel
+ORDER BY ?personLabel
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# CQ5: Meme Functions and Ritual Symbols
+# How do meme functions and ritual symbols support the circulation of
+# cyber-wishing practices?
+# ─────────────────────────────────────────────────────────────────────────────
+
+SELECT ?case ?memeFunctionLabel ?ritualSymbolLabel ?platformLabel
+WHERE {
+    ?case a wg:CyberWishingCase .
+    OPTIONAL {
+        ?case wg:servesMemeFunction ?mf .
+        ?mf rdfs:label ?memeFunctionLabel .
+    }
+    OPTIONAL {
+        ?case wg:usesRitualSymbol ?rs .
+        ?rs rdfs:label ?ritualSymbolLabel .
+    }
+    OPTIONAL {
+        ?case wg:circulatesOnPlatform ?platform .
+        ?platform rdfs:label ?platformLabel .
+    }
+}
+ORDER BY ?case

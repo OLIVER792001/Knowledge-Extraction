@@ -1,0 +1,225 @@
+@prefix wg: <https://example.org/wishgraph#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+# ─────────────────────────────────────────────────────────────────────────────
+# WishGraph Ontology  –  T-Box
+# Version 1.0 | 2026-05-08
+# Describes cyber-wishing as a platformed digital ritual in Chinese internet
+# culture. Based on the WishGraph project framework and eXtreme Design method.
+# ─────────────────────────────────────────────────────────────────────────────
+
+<https://example.org/wishgraph>
+    a owl:Ontology ;
+    dcterms:title "WishGraph: An Ontology of Cyber-Wishing, Digital Folklore and Platformed Rituals" ;
+    dcterms:description "Models cyber-wishing practices, relating social actors, pressures, cyber deities, ritual symbols, digital practices and platforms in contemporary Chinese digital culture." ;
+    dcterms:created "2026-05-08"^^xsd:date ;
+    owl:versionInfo "1.0" .
+
+# ═══════════════════════════════════════════════════════════
+#  CLASSES  (T-Box)
+# ═══════════════════════════════════════════════════════════
+
+# Central class: a specific cyber-wishing event/case
+wg:CyberWishingCase
+    a owl:Class ;
+    rdfs:label "CyberWishingCase" ;
+    rdfs:comment "A specific instance of cyber-wishing, combining actor, pressure, product, practice, platform and functions." .
+
+# Person / Actor
+wg:Person
+    a owl:Class ;
+    rdfs:label "Person" ;
+    rdfs:comment "The social actor or participant type who engages in cyber-wishing (e.g., Student, Jobseeker, Gamer)." .
+
+wg:Student         a owl:Class ; rdfs:subClassOf wg:Person ; rdfs:label "Student" .
+wg:Jobseeker       a owl:Class ; rdfs:subClassOf wg:Person ; rdfs:label "Jobseeker" .
+wg:Programmer      a owl:Class ; rdfs:subClassOf wg:Person ; rdfs:label "Programmer" .
+wg:Researcher      a owl:Class ; rdfs:subClassOf wg:Person ; rdfs:label "Researcher" .
+wg:Gamer           a owl:Class ; rdfs:subClassOf wg:Person ; rdfs:label "Gamer / Fan" .
+wg:Couple          a owl:Class ; rdfs:subClassOf wg:Person ; rdfs:label "Couple" .
+wg:Traveller       a owl:Class ; rdfs:subClassOf wg:Person ; rdfs:label "Traveller" .
+wg:SingleYoungAdult a owl:Class ; rdfs:subClassOf wg:Person ; rdfs:label "Single Young Adult" .
+wg:MemeCreator     a owl:Class ; rdfs:subClassOf wg:Person ; rdfs:label "Meme Creator" .
+wg:HealthAnxiousUser a owl:Class ; rdfs:subClassOf wg:Person ; rdfs:label "Health-Anxious User" .
+wg:SpiritualUser   a owl:Class ; rdfs:subClassOf wg:Person ; rdfs:label "Spiritual User" .
+wg:TemplateParticipant a owl:Class ; rdfs:subClassOf wg:Person ; rdfs:label "Template / Challenge Participant" .
+wg:CasualParticipant a owl:Class ; rdfs:subClassOf wg:Person ; rdfs:label "Casual Participant" .
+wg:BusinessExecutive a owl:Class ; rdfs:subClassOf wg:Person ; rdfs:label "Business Executive" .
+
+# Pressure / Need
+wg:Pressure
+    a owl:Class ;
+    rdfs:label "Pressure" ;
+    rdfs:comment "A social, emotional, or situational need that motivates cyber-wishing (e.g., exam anxiety, job insecurity)." .
+
+# CyberProduct (the digital wishing object / cyber deity / meme)
+wg:CyberProduct
+    a owl:Class ;
+    rdfs:label "CyberProduct" ;
+    rdfs:comment "A digital object used in cyber-wishing, such as a cyber deity image, lucky wallpaper, or meme template." .
+
+# CulturalTarget (traditional deity or ritual reference)
+wg:CulturalTarget
+    a owl:Class ;
+    rdfs:label "CulturalTarget" ;
+    rdfs:comment "A traditional Chinese folk deity, ritual figure, or cultural symbol that is re-contextualised digitally." .
+
+# DigitalPractice (the online action)
+wg:DigitalPractice
+    a owl:Class ;
+    rdfs:label "DigitalPractice" ;
+    rdfs:comment "An online action used to perform cyber-wishing, such as reposting, commenting, saving images, or changing avatars." .
+
+# Platform
+wg:Platform
+    a owl:Class ;
+    rdfs:label "Platform" ;
+    rdfs:comment "The digital environment where cyber-wishing circulates (e.g., RedNote, Weibo, Bilibili)." .
+
+# TransformationMechanism
+wg:TransformationMechanism
+    a owl:Class ;
+    rdfs:label "TransformationMechanism" ;
+    rdfs:comment "The mechanism by which traditional ritual references become digital objects or platform actions." .
+
+# AffectiveFunction (emotional role)
+wg:AffectiveFunction
+    a owl:Class ;
+    rdfs:label "AffectiveFunction" ;
+    rdfs:comment "The emotional or psychological function served by a cyber-wishing practice (e.g., anxiety relief, hope generation)." .
+
+# MemeFunction (participatory / communicative role)
+wg:MemeFunction
+    a owl:Class ;
+    rdfs:label "MemeFunction" ;
+    rdfs:comment "The communicative, social, or participatory function of a cyber-wishing meme (e.g., virality, community bonding)." .
+
+# RitualSymbol (visual / symbolic marker)
+wg:RitualSymbol
+    a owl:Class ;
+    rdfs:label "RitualSymbol" ;
+    rdfs:comment "A visual or symbolic element associated with a cyber-wishing practice (e.g., koi fish, incense, lucky numbers)." .
+
+# Source / Evidence
+wg:Source
+    a owl:Class ;
+    rdfs:label "Source" ;
+    rdfs:comment "Evidence for a CyberWishingCase, including a URL and source type." .
+
+
+# ═══════════════════════════════════════════════════════════
+#  OBJECT PROPERTIES
+# ═══════════════════════════════════════════════════════════
+
+wg:hasPerson
+    a owl:ObjectProperty ;
+    rdfs:domain wg:CyberWishingCase ;
+    rdfs:range  wg:Person ;
+    rdfs:label  "hasPerson" ;
+    rdfs:comment "Links a case to the type of actor who performs cyber-wishing." .
+
+wg:hasPressure
+    a owl:ObjectProperty ;
+    rdfs:domain wg:CyberWishingCase ;
+    rdfs:range  wg:Pressure ;
+    rdfs:label  "hasPressure" ;
+    rdfs:comment "Links a case to the motivating social or emotional pressure." .
+
+wg:usesCyberProduct
+    a owl:ObjectProperty ;
+    rdfs:domain wg:CyberWishingCase ;
+    rdfs:range  wg:CyberProduct ;
+    rdfs:label  "usesCyberProduct" ;
+    rdfs:comment "Links a case to the cyber deity, meme, or digital wishing object." .
+
+wg:alignsWithCulturalTarget
+    a owl:ObjectProperty ;
+    rdfs:domain wg:CyberProduct ;
+    rdfs:range  wg:CulturalTarget ;
+    rdfs:label  "alignsWithCulturalTarget" ;
+    rdfs:comment "Links a cyber product to the traditional deity or ritual reference it re-contextualises." .
+
+wg:performsPractice
+    a owl:ObjectProperty ;
+    rdfs:domain wg:CyberWishingCase ;
+    rdfs:range  wg:DigitalPractice ;
+    rdfs:label  "performsPractice" ;
+    rdfs:comment "Links a case to the digital action through which wishing is carried out." .
+
+wg:circulatesOnPlatform
+    a owl:ObjectProperty ;
+    rdfs:domain wg:CyberWishingCase ;
+    rdfs:range  wg:Platform ;
+    rdfs:label  "circulatesOnPlatform" ;
+    rdfs:comment "Links a case to the digital platform where it circulates." .
+
+wg:hasTransformationMechanism
+    a owl:ObjectProperty ;
+    rdfs:domain wg:CyberWishingCase ;
+    rdfs:range  wg:TransformationMechanism ;
+    rdfs:label  "hasTransformationMechanism" ;
+    rdfs:comment "Links a case to the mechanism describing how ritual becomes digital." .
+
+wg:servesAffectiveFunction
+    a owl:ObjectProperty ;
+    rdfs:domain wg:CyberWishingCase ;
+    rdfs:range  wg:AffectiveFunction ;
+    rdfs:label  "servesAffectiveFunction" ;
+    rdfs:comment "Links a case to its emotional or psychological function." .
+
+wg:servesMemeFunction
+    a owl:ObjectProperty ;
+    rdfs:domain wg:CyberWishingCase ;
+    rdfs:range  wg:MemeFunction ;
+    rdfs:label  "servesMemeFunction" ;
+    rdfs:comment "Links a case to its participatory or communicative meme function." .
+
+wg:usesRitualSymbol
+    a owl:ObjectProperty ;
+    rdfs:domain wg:CyberWishingCase ;
+    rdfs:range  wg:RitualSymbol ;
+    rdfs:label  "usesRitualSymbol" ;
+    rdfs:comment "Links a case to a ritual or visual symbol used in the practice." .
+
+wg:hasSource
+    a owl:ObjectProperty ;
+    rdfs:domain wg:CyberWishingCase ;
+    rdfs:range  wg:Source ;
+    rdfs:label  "hasSource" ;
+    rdfs:comment "Links a case to supporting evidence." .
+
+
+# ═══════════════════════════════════════════════════════════
+#  DATATYPE PROPERTIES
+# ═══════════════════════════════════════════════════════════
+
+wg:hasLabel
+    a owl:DatatypeProperty ;
+    rdfs:label "hasLabel" ;
+    rdfs:comment "A human-readable label for any named individual." ;
+    rdfs:range xsd:string .
+
+wg:hasSourceURL
+    a owl:DatatypeProperty ;
+    rdfs:domain wg:Source ;
+    rdfs:range  xsd:anyURI ;
+    rdfs:label  "hasSourceURL" ;
+    rdfs:comment "URL pointing to the meme, post, or article used as evidence." .
+
+wg:hasSourceType
+    a owl:DatatypeProperty ;
+    rdfs:domain wg:Source ;
+    rdfs:range  xsd:string ;
+    rdfs:label  "hasSourceType" ;
+    rdfs:comment "Classification of the evidence source (e.g., Social Media Post, Academic Source)." .
+
+wg:hasDescription
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:label "hasDescription" ;
+    rdfs:comment "Textual description of any ontology individual." .
