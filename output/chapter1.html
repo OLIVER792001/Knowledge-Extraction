@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chapter 1: Requirements & Competency Questions - WishGraph</title>
+<title>Chapter 1: Research Framework & Methodology - WishGraph</title>
 <style>
 /* ── Base Styles ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -104,6 +104,62 @@ body {
 .placeholder-box p { font-size: 0.9rem; color: var(--muted); font-family: Arial, sans-serif; max-width: 500px; margin: 0 auto 1.5rem; }
 .placeholder-box .icon { font-size: 3rem; margin-bottom: 1rem; opacity: 0.6; }
 
+
+/* ── Chapter 1 Research Content ── */
+.chapter-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.chapter-content > h2 {
+  font-size: 1.45rem;
+  color: var(--accent);
+  margin: 3rem 0 1rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 2px solid var(--gold);
+}
+.chapter-content > h2:first-child { margin-top: 0; }
+.chapter-content h3 {
+  font-size: 1.08rem;
+  color: var(--ink);
+  margin: 1.7rem 0 0.55rem;
+}
+.chapter-content p {
+  color: #5f4b38;
+  font-size: 0.96rem;
+  line-height: 1.85;
+  margin-bottom: 1rem;
+}
+.references {
+  margin: 1.5rem 0 0.5rem;
+  padding: 1.1rem 1.25rem;
+  background: rgba(201,148,58,0.06);
+  border-left: 3px solid var(--gold);
+  border-radius: 0 8px 8px 0;
+}
+.references h4 {
+  color: var(--accent);
+  font-size: 0.95rem;
+  margin-bottom: 0.55rem;
+}
+.references p {
+  font-family: Arial, sans-serif;
+  font-size: 0.82rem;
+  line-height: 1.7;
+  margin: 0 0 0.45rem;
+}
+.chapter-back {
+  display: inline-block;
+  margin-top: 2.5rem;
+  padding: 0.6rem 1.2rem;
+  background: var(--gold);
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-family: Arial, sans-serif;
+  font-size: 0.85rem;
+}
+.chapter-back:hover { background: var(--accent); }
+
 /* ── Footer ── */
 footer {
   background: var(--nav-bg); color: #7a6652; text-align: center; padding: 1.5rem;
@@ -138,7 +194,7 @@ footer strong { color: var(--gold-light); }
     <div class="nav-section-label">Chapters</div>
     <a class="nav-link current" href="chapter1.html">
       <span class="nav-icon">📋</span>
-      <span>Requirements & CQs</span>
+      <span>Research Framework</span>
       <span class="nav-step">Ch1</span>
     </a>
     <a class="nav-link" href="chapter2.html">
@@ -164,19 +220,90 @@ footer strong { color: var(--gold-light); }
 
 <div class="hero">
   <h1>Chapter 1</h1>
-  <div class="subtitle">Requirements &amp; Competency Questions</div>
+  <div class="subtitle">Research Framework &amp; Methodology</div>
 </div>
 
 <section>
 <div class="section">
-  <h2 class="section-title">Chapter 1: Requirements &amp; Competency Questions</h2>
+  <h2 class="section-title">Chapter 1: Research Framework &amp; Methodology</h2>
   
-  <div class="placeholder-box">
-    <div class="icon">📋</div>
-    <h3>Content Coming Soon</h3>
-    <p>This chapter will contain the theoretical framework, research questions, and competency questions defining the scope of the WishGraph knowledge graph.</p>
-    <p style="margin-top:1rem;">Assigned to: <strong style="color:var(--accent);">Team Member (TBD)</strong></p>
-    <a href="../index.html" style="display:inline-block;margin-top:1.5rem;padding:0.6rem 1.2rem;background:var(--gold);color:white;text-decoration:none;border-radius:6px;font-family:Arial,sans-serif;font-size:0.85rem;">← Back to Overview</a>
+  <div class="chapter-content">
+    <h2>1. Project Introduction</h2>
+
+    <h3>1.1 What is Cyber-Wishing?</h3>
+    <p>Cyber-wishing refers to an innovative form of online wishing practice in which users seek luck, protection, success, wealth, health, romance, safety and emotional reassurance through digital media objects and platform interactions. It appears through reposted lucky images, comments such as “receive good luck,” deity-themed avatars, blessing wallpapers, “Offer Bodhisattva” memes, online divination tools and meme-based platform challenges. These practices draw on older forms of wishing, blessing, divination, amulet use and deity worship, while adapting them to the participatory environment of digital platforms. This project understands cyber-wishing as a culturally meaningful form of platformed ritual and digital folklore, in which everyday pressures become linked to symbolic acts of hope, luck-seeking and affective participation (Bell, 1992; Blank, 2009; Shifman, 2014).</p>
+
+    <h3>1.2 What Does This Project Aim to Model?</h3>
+    <p>This project models cyber-wishing as a relational phenomenon. A cyber-wishing case consists of the person who performs the practice, the pressure or desire that motivates it, the cyber product used, the traditional cultural or ritual target it refers to, the digital practice through which it is performed, the platform where it circulates, and its affective and meme functions. The ontology places <em>CyberWishingCase</em> at its centre and connects it with entities such as <em>Person</em>, <em>Pressure</em>, <em>CyberProduct</em>, <em>CulturalTarget</em>, <em>DigitalPractice</em>, <em>Platform</em>, <em>AffectiveFunction</em>, <em>MemeFunction</em>, <em>RitualSymbol</em> and <em>SourceEvidence</em>. Through this structure, cyber-wishing can be queried as a structured cultural phenomenon. The project follows the basic function of ontology as an explicit representation of a shared conceptual structure (Gruber, 1993; Studer et al., 1998).</p>
+
+    <div class="references">
+      <h4>References</h4>
+      <p>Bell, C. (1992). <em>Ritual theory, ritual practice.</em> Oxford University Press.</p>
+      <p>Blank, T. J. (Ed.). (2009). <em>Folklore and the Internet: Vernacular expression in a digital world.</em> Utah State University Press.</p>
+      <p>Gruber, T. R. (1993). A translation approach to portable ontology specifications. <em>Knowledge Acquisition, 5</em>(2), 199–220. https://doi.org/10.1006/knac.1993.1008</p>
+      <p>Shifman, L. (2014). <em>Memes in digital culture.</em> MIT Press.</p>
+      <p>Studer, R., Benjamins, V. R., &amp; Fensel, D. (1998). Knowledge engineering: Principles and methods. <em>Data &amp; Knowledge Engineering, 25</em>(1–2), 161–197. https://doi.org/10.1016/S0169-023X(97)00056-6</p>
+    </div>
+
+    <h2>2. Rationale and Cultural Background</h2>
+
+    <h3>2.1 Historical Roots in Chinese Folk Religion and Blessing Practices</h3>
+    <p>Cyber-wishing grows from China’s long cultural background of folk religion, blessing practices and everyday ritual life. Many online symbols carry familiar ritual meanings before they enter digital circulation. Caishen is associated with wealth, business, trade and financial luck. On the fifth day of the Lunar New Year, people traditionally welcome Caishen, send away poverty and open businesses with the hope of attracting prosperity. In online spaces, this ritual logic appears through Caishen images on WeChat Moments and wealth-related blessing posts. Mazu, widely known as a protector of sea travel and safe journeys, also enters digital practice through reposted images, online divination and “cyber moon blocks” before travel. These examples show how older ritual figures become digital materials for contemporary wishing practices. They give online users a cultural vocabulary for making wishes about money, safety, romance, health and luck intelligible (Chau, 2006).</p>
+
+    <h3>2.2 Contemporary Pressures and Uncertainty</h3>
+    <p>Cyber-wishing also responds to contemporary uncertainty. In the dataset, users turn to cyber-wishing when facing academic pressure, job insecurity, financial anxiety, health concerns, romantic uncertainty, travel safety, or the randomness of games and fandom consumption. A gamer may place a desired character image beside an iPad and play the song <em>Good Luck Comes</em> before drawing cards. A fan may “pray” to a celebrity image before opening albums in the hope of receiving a preferred photocard. Couples may ask others to comment “99,” which sounds like “long-lasting” in Chinese, as a small public wish for romantic continuity. These practices turn uncertain outcomes into symbolic actions that users can perform, share and repeat.</p>
+
+    <h3>2.3 Platform Circulation and Meme Transformation</h3>
+    <p>Cyber-wishing takes shape through platform circulation. Likes, reposts, comments, saves, avatars, hashtags and recommendation systems participate in the formation of these practices. A blessing may develop into a repost chain, a lucky image may circulate as a shareable meme, and a ritual phrase may settle into a repeated comment formula. For example, “receive good luck” turns blessing into a comment action. Online divination also changes ritual consultation into an interface that users can click, screenshot and share. Platform affordances shape the form, circulation and public reach of cyber-wishing (Bucher &amp; Helmond, 2018).</p>
+
+    <h3>2.4 Why Ontology is Suitable</h3>
+    <p>Ontology suits this project because cyber-wishing is organised through relations. A spreadsheet can record these examples, while an ontology models the connections among them. This project therefore moves from description toward queryable knowledge representation. Following eXtreme Design, the ontology can be built through competency questions, reusable modelling patterns and iterative refinement, so the final model can support structured analysis of cyber-wishing cases (Presutti et al., 2009).</p>
+
+    <div class="references">
+      <h4>References</h4>
+      <p>Bucher, T., &amp; Helmond, A. (2018). The affordances of social media platforms. In J. Burgess, A. Marwick, &amp; T. Poell (Eds.), <em>The SAGE handbook of social media</em> (pp. 233–253). SAGE.</p>
+      <p>Chau, A. Y. (2006). <em>Miraculous response: Doing popular religion in contemporary China.</em> Stanford University Press.</p>
+      <p>Presutti, V., Daga, E., Gangemi, A., &amp; Blomqvist, E. (2009). eXtreme Design with content ontology design patterns. In <em>Proceedings of the Workshop on Ontology Patterns.</em></p>
+    </div>
+
+    <h2>3. Theoretical Framework</h2>
+
+    <h3>3.1 Adapted 4P Framework</h3>
+    <p>This project uses Rhodes’ 4P framework as the core structure for organising cyber-wishing cases. The original model defines creativity through Person, Process, Product and Press. In this project, Person refers to the actor who performs cyber-wishing, such as a student, gamer or traveller. Press refers to the pressure that motivates the act, including exam anxiety, financial concern or travel uncertainty. Product refers to the digital wishing object, such as a lucky image or divination interface. Process refers to the platform action through which the wish is performed, including reposting or avatar-changing. Since cyber-wishing depends on social media circulation, Platform is added as a fifth dimension. The adapted model therefore structures each case through Person, Press, Product, Process and Platform.</p>
+
+    <h3>3.2 Remediation Theory</h3>
+    <p>Remediation theory explains how older symbolic forms are refashioned through digital media. In cyber-wishing, ritual symbols become digital objects, meme formats and platform actions. A deity image can function as an avatar. A blessing phrase can circulate as a repost formula. Divination can appear as a clickable interface that users screenshot and share. Platform features such as comments, saves and recommendation systems shape how these symbolic forms travel. This framework clarifies the relation between <em>CulturalTarget</em>, <em>CyberProduct</em>, <em>DigitalPractice</em> and <em>Platform</em> in the ontology.</p>
+
+    <h3>3.3 Cognitive Tension</h3>
+    <p>Cognitive tension explains the coexistence of practical rationality and ritualised digital behaviour. Many users understand the limits of reposting a lucky image, changing to a deity-themed avatar or commenting “receive good luck”. They still perform these actions as playful and socially recognisable ways of managing uncertainty. Cyber-wishing works through this tension between rational awareness and symbolic belief. In the dataset, this appears when users treat wishing practices as jokes, small comforts or semi-serious rituals. The concept helps interpret affective functions such as anxiety relief, hope production, confidence building and communal reassurance.</p>
+
+    <div class="references">
+      <h4>References</h4>
+      <p>Bolter, J. D., &amp; Grusin, R. (1999). <em>Remediation: Understanding new media.</em> MIT Press.</p>
+      <p>Festinger, L. (1957). <em>A theory of cognitive dissonance.</em> Stanford University Press.</p>
+      <p>Rhodes, M. (1961). An analysis of creativity. <em>The Phi Delta Kappan, 42</em>(7), 305–310.</p>
+    </div>
+
+    <h2>4. Methodology</h2>
+
+    <p>The project follows a workflow that moves from meme collection and multimodal extraction to ontology modelling and SPARQL-based analysis. Its aim is to create structured cyber-wishing cases that can populate and test the ontology, with statistical representation placed outside the project scope.</p>
+
+    <h3>4.1 Domain Analysis and Meme Collection</h3>
+    <p>We collected representative cyber-wishing examples from platform-based digital communities, selecting cases that reveal how everyday pressures are transformed into symbolic, affective and participatory digital practices. The primary materials include cyber-wishing images and screenshots of platform interactions, such as lucky images, blessing posts, deity-themed avatars, repost chains, comment sections, meme templates and online divination tools. Comments, captions and repost phrases are treated as part of the captured visual context rather than as a separate textual corpus. Their meanings are distributed across visual elements, embedded text, interface cues, platform context and implied pressures, so they first had to be prepared for structured modelling.</p>
+
+    <h3>4.2 Multimodal Extraction and Structured Dataset</h3>
+    <p>We used AI-assisted extraction together with manual checking to identify key elements in each cyber-wishing image or platform screenshot. These elements include represented figures, embedded text, visible comments, implied pressure, ritual reference, digital practice and affective function. The extracted information was transformed through prompt-based structuring into JSON records and then organised into a CSV file, which served as the bridge between raw visual materials and ontology instances. Its fields include Person, Press, Product, Cultural/Ritual Target, Digital Practice, Platform, Digital Transformation, Affective Function, Meme Function, Ritual or Visual Symbol and source information.</p>
+
+    <h3>4.3 Ontology Modelling in Protégé</h3>
+    <p>The CSV fields were used to define the ontology’s main classes and relations in Protégé or WebProtégé. The central class, <em>CyberWishingCase</em>, links each case to <em>Person</em>, <em>Pressure</em>, <em>CyberProduct</em>, <em>CulturalTarget</em>, <em>DigitalPractice</em>, <em>Platform</em>, <em>TransformationMechanism</em>, <em>AffectiveFunction</em>, <em>MemeFunction</em>, <em>RitualSymbol</em> and <em>Source</em>. In Protégé, we organised class hierarchies, defined object properties, checked labels and refined ambiguous distinctions, including the difference between <em>CyberProduct</em>, <em>CulturalTarget</em> and <em>RitualSymbol</em>.</p>
+
+    <h3>4.4 Instantiation and Alignment</h3>
+    <p>Selected cases from the structured dataset were instantiated in the ontology. Each case became one <em>CyberWishingCase</em> instance and was linked to its actor, pressure, cyber product, cultural target, digital practice, platform and functions. This step tested how the categories defined in Protégé held real meme cases while preserving their platform, ritual and affective dimensions.</p>
+
+    <h3>4.5 SPARQL Testing and Interpretation</h3>
+    <p>The ontology was tested through SPARQL queries based on the Competency Questions. The query results were used to examine how users’ pressures connect with ritual references, platform practices and affective or meme functions. The results are interpreted as cultural insights, with statistical conclusions placed outside the analytical scope.</p>
+
+    <a class="chapter-back" href="../index.html">← Back to Overview</a>
   </div>
 </div>
 </section>
