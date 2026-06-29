@@ -130,12 +130,37 @@ body {
   font-style: italic;
 }
 .hero .desc {
-  width: 88%;
-  max-width: 1250px;
-  margin: 0 auto;
+  max-width: 900px;
+  margin: 2rem auto 0;
+  padding: 0 1rem;
   font-size: 0.95rem;
   color: #c9b08a;
-  line-height: 1.8;
+  line-height: 1.75;
+  text-align: left;
+}
+
+.hero .desc p {
+  margin: 0 0 1rem;
+}
+
+.hero .desc .lead {
+  font-size: 1.03rem;
+  color: #e1c795;
+}
+
+.hero .desc .method {
+  padding-top: 0.9rem;
+  border-top: 1px solid rgba(201,148,58,0.35);
+}
+
+.hero .desc .course-info {
+  margin-top: 1.3rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(201,148,58,0.35);
+  text-align: center;
+  font-size: 0.78rem;
+  line-height: 1.55;
+  color: #aa906b;
 }
 .badge-row {
   display: flex; justify-content: center; gap: 1rem;
@@ -292,29 +317,25 @@ footer strong { color: var(--gold-light); }
 <div id="main-content">
 
 <!-- Hero -->
-<div class="hero" id="overview">
-  <h1>WishGraph</h1>
-  <div class="subtitle">An Ontology of Cyber-Wishing, Digital Folklore and Platformed Rituals</div>
-  <div class="desc">
-<p>
-  WishGraph is an ontology project that examines cyber-wishing as a contemporary form of wishing practice. It explores how everyday pressures are transformed through digital platforms into meme-based acts of wishing, blessing, and affective participation.
-</p>
+<div class="desc">
+  <p class="lead">
+    WishGraph is an ontology project that examines cyber-wishing as a contemporary form of wishing practice. It explores how everyday pressures are transformed through digital platforms into meme-based acts of wishing, blessing, and affective participation.
+  </p>
 
-<p>
-  The project models structured relations among users, social pressures, cyber deities, cyber products, ritual symbols, digital actions, and platforms. Through repost chains, comment rituals, avatars, wallpapers, and online divination tools, it traces how traditional folk beliefs are reworked within contemporary digital culture. WishGraph demonstrates how knowledge representation can be used to analyse emerging cultural phenomena through ontology design, dataset construction, and SPARQL-based analysis.
-</p>
+  <p>
+    The project models structured relations among users, social pressures, cyber deities, cyber products, ritual symbols, digital actions, and platforms. Through repost chains, comment rituals, avatars, wallpapers, and online divination tools, it traces how traditional folk beliefs are reworked within contemporary digital culture.
+  </p>
 
-<p class="course-info">
-  Developed for <em>Knowledge Representation and Extraction (1)</em>, Academic Year 2024/2025, taught by Prof. Aldo Gangemi, Digital Humanities and Digital Knowledge (LM), University of Bologna.
-</p>
-  </div>
-  <div class="badge-row">
-    <span class="badge">OWL 2 / Turtle</span>
-    <span class="badge">Knowledge Graph</span>
-    <span class="badge">Digital Folklore</span>
-  </div>
+  <p class="method">
+    WishGraph demonstrates how knowledge representation can be used to analyse emerging cultural phenomena through ontology design, dataset construction, and SPARQL-based analysis.
+  </p>
+
+  <p class="course-info">
+    Developed for <em>Knowledge Representation and Extraction (1)</em><br>
+    Academic Year 2024/2025 · Prof. Aldo Gangemi<br>
+    Digital Humanities and Digital Knowledge (LM), University of Bologna
+  </p>
 </div>
-
 <!-- Chapters Overview -->
 <section id="chapters">
 <div class="section">
